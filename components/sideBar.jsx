@@ -16,7 +16,7 @@ const SideBar = () => {
   ];
 
   return (
-    <div className="p-2 flex items-center flex-col w-[100px] space-y-5 shadow-lg shadow-red-300 h-screen sticky top-0">
+    <div className="p-2 flex items-center flex-col w-[100px] space-y-5 shadow-lg shadow-red-300 h-screen sticky top-0 bg-white">
       <Image src="/logo.png" alt="logo" width={50} height={50} />
       {menu.map((Item) => (
         <>
